@@ -37,6 +37,7 @@ section{padding:76px 0;}
 .page-hero{background:linear-gradient(180deg,#f7f2ea,#efe6d6);padding:56px 0 44px;border-bottom:1px solid var(--line);}
 .page-hero h1{font-size:clamp(32px,5vw,48px);margin:0 0 10px;}.page-hero p{font-size:19px;color:var(--ink-soft);margin:0;max-width:660px;}
 .band{background:var(--bush);color:#f3efe6;}.band .eyebrow{color:#e9c9a3;}
+.band .band-title{font-size:clamp(34px,5.2vw,52px);color:#fff;margin:0 0 20px;letter-spacing:.2px;}
 .band .lede{font-size:clamp(20px,2.6vw,26px);font-family:var(--serif);line-height:1.4;max-width:780px;margin:0;color:#f3efe6;}
 .band .lede strong{color:#e9c9a3;font-weight:600;}
 .alt{background:var(--paper);}
