@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About &mdash; Customised Artworks NZ</title><meta name="description" content="Mark Jones &mdash; a maker in Tāmaki Makaurau Auckland working in native NZ timbers and laser-engraved artwork.">
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<header><div class="wrap nav">
+  <a href="index.html" class="brand">Customised <span>Artworks</span> <small>NZ</small></a>
+  <button class="burger" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+  <nav class="navlinks" id="nav">
+    <a href="commissions.html">Commissions</a>
+    <a href="work.html">The Work</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="navcta">Start a commission</a>
+  </nav>
+</div></header>
+<main>
+<section class="page-hero"><div class="wrap">
+  <p class="eyebrow">About</p><h1>Hi, I'm Mark</h1></div></section>
+<section><div class="wrap">
+  <div class="about-grid">
+    <div class="about-copy">
+      <p>I've been making things by hand since I was fifteen, when I started out in the silver trade &mdash; raising goblets, dishes and tankards from flat sheet metal. Life took me in other directions for a long stretch, but the pull to make never really left. During the Covid lockdowns I cleared out the garage, built myself a workbench, and started again &mdash; this time working in wood and light.</p>
+      <p>What's stayed with me the whole way is the quiet satisfaction of watching a base material become something someone values &mdash; as true turning a bowl from native timber today as it was raising a tankard at fifteen.</p>
+      <p>The part I love most is when the piece belongs to someone else's story. Give me the bare bones &mdash; an idea, or just a material that matters &mdash; and I'll tell your story through the work. It might be a slab of timber your grandad kept in the garage for years. That, to me, is what this is really about: connecting with someone, and transforming their story into something they can hold &mdash; a physical memory.</p>
+    </div>
+    <div class="whakatauki">
+      <p class="txt">Whāia te iti kahurangi, ki te tuohu koe, me he maunga teitei</p>
+      <p class="tr">Pursue excellence; should you stumble, let it be to a lofty mountain.</p>
+      <p class="by">A whakataukī I try to work by.</p>
+    </div>
+  </div>
+  <figure class="story"><img src="assets/images/before-after.jpg" alt="An old lawn bowl turned into an apple, a bud vase and a rose">
+    <figcaption><strong>Made with you &mdash; from what matters.</strong> This began as an old lawn bowl, still wearing its original markings and hand-tooled rings. It became a turned apple, a bud vase and a rose. Bring me something with a history, and I'll give it a second life.</figcaption></figure>
+</div></section>
+<section class="cta-band"><div class="wrap">
+  <p class="eyebrow" style="color:var(--timber)">Let's start</p>
+  <h2>Let's make yours</h2>
+  <p>If you've got a piece in mind &mdash; or just the beginnings of one &mdash; I'd love to hear it.</p>
+  <a href="contact.html" class="btn btn-primary">Start a commission</a>
+</div></section>
+</main>
+<footer><div class="wrap"><span class="fbrand">Customised Artworks NZ</span>
+<span>Bespoke woodwork &amp; engraved artwork &middot; Tāmaki Makaurau Auckland &middot; Aotearoa</span></div></footer>
+<script>document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('nav').classList.remove('open')));</script>
+</body></html>
