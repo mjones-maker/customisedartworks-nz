@@ -31,11 +31,31 @@
   </div>
   <div class="cultural"><h3>Culturally significant work</h3><p>Some pieces carry cultural significance &mdash; tā moko and Māori portraiture in particular. I take those on by commission only, created with and for the people they belong to.</p></div>
 </div></section>
-<section class="cta-band"><div class="wrap">
-  <p class="eyebrow" style="color:var(--timber)">Let's start</p>
-  <h2>Let's make yours</h2>
-  <p>If you've got a piece in mind &mdash; or just the beginnings of one &mdash; I'd love to hear it.</p>
-  <a href="contact.html" class="btn btn-primary">Start a commission</a>
+<section class="alt" id="enquire"><div class="wrap" style="max-width:660px;">
+  <div class="section-head" style="margin-bottom:26px;"><p class="eyebrow">Let's start</p><h2>Tell me what you're thinking</h2>
+    <p>The best pieces begin as a conversation. Send the bare bones &mdash; an occasion, a person, a material, or just a feeling &mdash; and I'll come back to you personally. Prefer to talk? <a href="mailto:mark@customisedartworks.co.nz">mark@customisedartworks.co.nz</a> &middot; <a href="tel:+64212040720">021 204 0720</a>.</p></div>
+  <form name="commission-enquiry" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/thanks.html" class="enquiry-form">
+    <input type="hidden" name="form-name" value="commission-enquiry">
+    <p class="hidden-field"><label>Leave this empty: <input name="bot-field"></label></p>
+    <div class="field-row">
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="phone">Phone <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel"></div>
+      <div class="field"><label for="enquiring-as">I'm enquiring as</label>
+        <select id="enquiring-as" name="enquiring-as">
+          <option>An individual</option><option>A club</option><option>A school</option><option>A business</option>
+        </select></div>
+    </div>
+    <div class="field"><label for="brief">What's it for?</label>
+      <textarea id="brief" name="brief" rows="5" required placeholder="An occasion, a person, a material you've kept, or just a feeling &mdash; whatever you've got so far."></textarea></div>
+    <div class="field-row">
+      <div class="field"><label for="timeframe">Rough timeframe <span class="opt">(optional)</span></label><input id="timeframe" name="timeframe" type="text" placeholder="e.g. before end of term &mdash; or no rush"></div>
+      <div class="field"><label for="reference">Reference image <span class="opt">(optional)</span></label><input id="reference" name="reference" type="file"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Start the conversation</button>
+  </form>
 </div></section>
 </main>
 <footer><div class="wrap"><span class="fbrand">Customised Artworks NZ</span>

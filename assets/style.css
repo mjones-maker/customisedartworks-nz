@@ -86,3 +86,16 @@ footer .fbrand{font-family:var(--serif);color:#c9b393;font-size:16px;}footer a{c
 .hero-grid,.crafts,.about-grid,.feature{grid-template-columns:1fr;}.hero-duo{order:-1;}
 .grid,.steps{grid-template-columns:1fr 1fr;}.teaser-thumbs{grid-template-columns:repeat(4,1fr);}}
 @media(max-width:520px){.grid,.steps,.teaser-thumbs{grid-template-columns:1fr 1fr;}}
+/* enquiry form */
+.enquiry-form{max-width:660px;margin:8px 0 0;}
+.enquiry-form .field{display:flex;flex-direction:column;margin:0 0 18px;}
+.enquiry-form .field-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.enquiry-form label{font-size:14px;font-weight:600;color:var(--ink);margin:0 0 6px;}
+.enquiry-form label .opt{font-weight:400;color:var(--ink-soft);}
+.enquiry-form input,.enquiry-form select,.enquiry-form textarea{font-family:var(--sans);font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;width:100%;}
+.enquiry-form textarea{resize:vertical;line-height:1.5;}
+.enquiry-form input[type=file]{padding:9px 12px;background:var(--paper);cursor:pointer;}
+.enquiry-form input:focus,.enquiry-form select:focus,.enquiry-form textarea:focus{outline:none;border-color:var(--timber);box-shadow:0 0 0 3px rgba(154,106,60,.18);}
+.enquiry-form button{margin-top:8px;}
+.hidden-field{display:none;}
+@media(max-width:560px){.enquiry-form .field-row{grid-template-columns:1fr;}}

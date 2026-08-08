@@ -25,6 +25,32 @@
   <p style="color:var(--ink-soft);">Based in Tāmaki Makaurau Auckland. Commissions welcome from clubs, schools, businesses and people.</p>
   <p class="signoff" style="color:var(--ink-soft);margin-top:30px;">Ngā mihi nui, Mark</p>
 </div></section>
+<section class="alt" id="enquire"><div class="wrap" style="max-width:660px;">
+  <div class="section-head" style="margin-bottom:26px;"><p class="eyebrow">Or send the details</p><h2>Start an enquiry</h2>
+    <p>Fill in as much or as little as you like &mdash; even just the idea and who it's for. I read every one myself and come back to you personally.</p></div>
+  <form name="commission-enquiry" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/thanks.html" class="enquiry-form">
+    <input type="hidden" name="form-name" value="commission-enquiry">
+    <p class="hidden-field"><label>Leave this empty: <input name="bot-field"></label></p>
+    <div class="field-row">
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label for="phone">Phone <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel"></div>
+      <div class="field"><label for="enquiring-as">I'm enquiring as</label>
+        <select id="enquiring-as" name="enquiring-as">
+          <option>An individual</option><option>A club</option><option>A school</option><option>A business</option>
+        </select></div>
+    </div>
+    <div class="field"><label for="brief">What's it for?</label>
+      <textarea id="brief" name="brief" rows="5" required placeholder="An occasion, a person, a material you've kept, or just a feeling &mdash; whatever you've got so far."></textarea></div>
+    <div class="field-row">
+      <div class="field"><label for="timeframe">Rough timeframe <span class="opt">(optional)</span></label><input id="timeframe" name="timeframe" type="text" placeholder="e.g. before end of term &mdash; or no rush"></div>
+      <div class="field"><label for="reference">Reference image <span class="opt">(optional)</span></label><input id="reference" name="reference" type="file"></div>
+    </div>
+    <button type="submit" class="btn btn-primary">Start the conversation</button>
+  </form>
+</div></section>
 </main>
 <footer><div class="wrap"><span class="fbrand">Customised Artworks NZ</span>
 <span>Bespoke woodwork &amp; engraved artwork &middot; Tāmaki Makaurau Auckland &middot; Aotearoa</span></div></footer>
