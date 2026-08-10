@@ -48,6 +48,7 @@ section{padding:76px 0;}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 .tile{margin:0;border-radius:14px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(38,32,27,.06);}
 .tile img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;}
+.tile.whole img{object-fit:contain;background:#12151d;}
 .tile figcaption{padding:12px 14px;font-size:14px;font-weight:600;color:var(--ink);}
 .group{margin:0 0 46px;}.group-title{font-family:var(--serif);font-size:25px;margin:0 0 4px;}
 .group-sub{margin:0 0 20px;color:var(--ink-soft);font-size:15px;}
