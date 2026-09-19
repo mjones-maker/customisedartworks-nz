@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "/Users/markjones/Library/CloudStorage/Dropbox/Claude Projects/Cowork/customisedartworks-brand/site/build"
+publish = "/Users/markjones/Library/CloudStorage/Dropbox/Claude Projects/Cowork/customisedartworks-brand/workspace/site/build"
 publishOrigin = "config"
 
 [build.environment]
